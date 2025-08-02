@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="..." crossorigin="anonymous">
+    <link href="/css/site.css" rel="stylesheet">
+    <!-- <script>
+        let windowStatus;
+        
+        function openWindow() {
+            windowStatus = open("www.google.com", "_blank", "width=500,height=500");
+        }
+
+        function closeWindow() {
+            if(windowStatus && !windowStatus.closed) {
+                windowStatus.close();
+                alert("Window closed");
+            } else {
+                alert("No window to close or it has already been closed.");
+            }
+        }
+
+        let num1 = parseInt(prompt("enter number1"));
+        let num2 = parseInt(prompt("enter number2"));
+        alert("Addition of 2 numbers is" +(num1+num2));
+    </script> -->
+</head>
+<body>
+    <h1 style="background-color: bisque; color: cadetblue; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Open and close a window</h1>
+    <button onClick = "openWindow()" class="border border-dark" style="border-color: aqua; border-radius: 10%;" >Open Google</button>
+    <button onClick = "closeWindow()">Close Window</button>
+</body>
+</html>
