@@ -1,0 +1,10 @@
+<!-- 5. WAP to find longest word in a sentence
+	input:- 'this is javascript class'
+    output:- javascript -->
+
+<script>
+    let s1 = 'this is javascript class';
+    let arr = s1.split(' ');
+    let longestLength = arr.reduce((a,b) => a.length >= b.length ? a : b);
+    console.log(longestLength) ;
+</script>
