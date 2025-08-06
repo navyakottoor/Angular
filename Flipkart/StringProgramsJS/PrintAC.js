@@ -1,0 +1,7 @@
+// <!-- 6. WAP to print Account number
+//    input:- '12345678987'
+//    output:- '12*******87' -->
+
+let acNo = '12345678987';
+let resAcNo = acNo.slice(0, -4).replace(/./g, "*") + acNo.slice(-4);
+console.log(resAcNo);
