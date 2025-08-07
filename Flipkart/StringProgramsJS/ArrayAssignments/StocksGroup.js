@@ -13,7 +13,7 @@ let res1 = stocks.reduce((prev, curr) => {
     } else {
       prev.loosers.push(curr);
     }
-    return prev;
+    return prev;d
 }, { gainers: [], loosers: []});
 
 console.log(res1);
