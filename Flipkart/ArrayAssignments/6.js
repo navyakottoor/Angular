@@ -12,13 +12,9 @@ const ordersList = [
 //   { orderId: 102, customerId: 2, name: "Bob" }
 // ]
 
-let res = ordersList.reduce( orderEle => {
-    let customers = customers.filter(custEle => custEle.id = orderEle.customerId);
-    
-    return{
-        ...orderEle,
-        name: customers.name 
-    }
-});4
+let res = ordersList.map( orderEle => {
+        let cust = customers.find(customerObj => customerObj.id === orderEle.customerId)
+        return { ...orderEle, name: cust.name};
+});
 
 console.log(res);

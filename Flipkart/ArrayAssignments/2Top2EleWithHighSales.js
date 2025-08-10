@@ -6,11 +6,10 @@ const products = [
   { name: "Tablet", price: 800, quantity: 5 }
 ];
 
-let res = products.reduce((a, b) => {
-    b.price = b.price*b.quantity;
-      a[b] = b;
-    return a;
-}, []);
+let res = products.map( obj => {
+  
+  return;
+});
 console.log(res);
 // res.sort( (ele1, ele2) => ele1.price-ele2.price);
 // console.log(res);

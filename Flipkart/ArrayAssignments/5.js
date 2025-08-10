@@ -11,4 +11,4 @@ let res = games.sort( (a,b) => {
         return b.score-a.score;
 });
 
-console.log(res);
+console.log(res.slice(0,2));

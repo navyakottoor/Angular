@@ -1,7 +1,7 @@
 // 2. WAP to reverse words
 // 	input:- 'This is javascript class'
 // 	output:- 'class javascript is this'
-    class StringDemo{
+    class StrRevEachWord{
     public static void main(String[] args) {
         String str = "This is javascript class";
         String[] strArr = str.split(" ");

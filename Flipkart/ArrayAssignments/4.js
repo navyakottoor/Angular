@@ -7,6 +7,7 @@ const orders = [
 // Assume today = 2025-08-08   // Output: ["Alice", "Bob"]
 
 let today = new Date();
+console.log(today);
 let last30Days = new Date();
 last30Days.setDate(today.getDate()-30);
 let res = orders.filter( ele => {
